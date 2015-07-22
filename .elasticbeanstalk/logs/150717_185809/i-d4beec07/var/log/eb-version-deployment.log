@@ -1,0 +1,39 @@
+2015-07-16 01:56:28,959 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437011609658> from bucket elasticbeanstalk-us-east-1-647822978635 and prefix resources/environments/e-d7jmiqupxb/_runtime/versions/
+2015-07-16 01:56:29,011 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-16 01:56:29,119 [INFO] Downloaded version label app-150715_215202 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150715_215202>
+2015-07-16 05:37:42,893 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437025034487
+2015-07-16 05:37:42,964 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-16 05:37:43,062 [INFO] Downloaded version label app-150716_013558 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_013558>
+2015-07-16 05:46:48,009 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437025604397
+2015-07-16 05:46:48,114 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-16 05:46:48,255 [INFO] Downloaded version label app-150716_014529 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_014529>
+2015-07-16 06:11:04,147 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437027059854
+2015-07-16 06:11:04,236 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-16 06:11:04,330 [INFO] Downloaded version label app-150716_020942 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_020942>
+2015-07-16 06:18:10,242 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437027486139
+2015-07-16 06:18:10,305 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-16 06:18:10,383 [INFO] Downloaded version label app-150716_021649 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_021649>
+2015-07-17 00:03:54,904 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437091430398
+2015-07-17 00:03:54,967 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 00:03:55,075 [INFO] Downloaded version label app-150716_200232 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_200232>
+2015-07-17 00:34:10,367 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437093205925
+2015-07-17 00:34:10,433 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 00:34:10,508 [INFO] Downloaded version label app-150716_203207 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_203207>
+2015-07-17 03:00:40,631 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437102036677
+2015-07-17 03:00:40,692 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 03:00:40,779 [INFO] Downloaded version label app-150716_225909 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_225909>
+2015-07-17 03:05:31,950 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437102327650
+2015-07-17 03:05:32,046 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 03:05:32,144 [INFO] Downloaded version label app-150716_230412 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150716_230412>
+2015-07-17 04:18:51,783 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437106727615
+2015-07-17 04:18:51,843 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 04:18:51,935 [INFO] Downloaded version label app-150717_001730 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150717_001730>
+2015-07-17 22:08:56,242 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437170931936
+2015-07-17 22:08:56,305 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 22:08:56,403 [INFO] Downloaded version label app-150717_180735 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150717_180735>
+2015-07-17 22:49:45,589 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437173381468
+2015-07-17 22:49:45,650 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 22:49:45,744 [INFO] Downloaded version label app-150717_184822 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150717_184822>
+2015-07-17 22:58:30,239 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437173905976
+2015-07-17 22:58:30,297 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-17 22:58:30,388 [INFO] Downloaded version label app-150717_185709 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150717_185709>

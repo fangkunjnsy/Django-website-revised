@@ -1,0 +1,66 @@
+2015-07-16 06:33:49,660 [INFO] (31154 MainThread) [tailLogs.py-56] [root tailLogs main] Starting tail logs task with batch id 9cac8edb-2b84-11e5-92e2-1d216f54ca55
+2015-07-16 06:33:49,664 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-version-deployment.log
+2015-07-16 06:33:49,664 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/httpd.out
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/error_log
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/supervisord.log
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/access_log
+2015-07-16 06:33:49,668 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-activity.log
+2015-07-16 06:33:49,671 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-commandprocessor.log
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [s3_tools.py-208] [root s3_tools _process_result] Received status code 200 with text: 
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [upload_tools.py-294] [root upload_tools __exit__] Successfully uploaded tailed content for 7 files to s3 at location resources/environments/logs/tail/e-d7jmiqupxb/i-d4beec07/TailLogs-1437028429671.out
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [tailLogs.py-92] [root tailLogs main] [Instance: i-d4beec07] Successfully finished tailing 7 log(s)
+2015-07-17 03:38:33,965 [INFO] (11744 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 4b254321-2c35-11e5-bc42-4f6a85118248
+2015-07-17 03:38:33,972 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437069661.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,972 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-tools.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,973 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-init-cmd.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,973 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437094861.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,973 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /opt/python/log/supervisord.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,973 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /opt/python/log/httpd.out to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,974 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437076861.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,974 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-cfn-init-call.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,974 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-init.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,975 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437087661.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,975 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437087661.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,975 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437098461.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,976 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437094861.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,976 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437073261.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,976 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cloud-init-output.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,977 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-cfn-init.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,979 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-commandprocessor.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,979 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437048061.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,979 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-version-deployment.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,980 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437084061.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,982 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/messages to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,991 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-hup.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,992 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437076861.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,992 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437091261.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,992 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437098461.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,993 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437091261.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,993 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/access_log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,993 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437080461.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,994 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-publish-logs.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,994 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437062461.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,995 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/error_log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,995 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437102061.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,995 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437037261.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,996 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cron to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:33,999 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-activity.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:34,000 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/access_log-1437040861.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:34,001 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cloud-init.log to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:34,001 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437102061.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:34,616 [INFO] (11744 MainThread) [s3_tools.py-208] [root s3_tools _process_result] Received status code 200 with text: 
+2015-07-17 03:38:34,616 [INFO] (11744 MainThread) [upload_tools.py-372] [root upload_tools __exit__] Successfully uploaded archive file /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip to s3 at location resources/environments/logs/bundle/e-d7jmiqupxb/i-d4beec07/BundleLogs-1437104314002.zip
+2015-07-17 03:38:34,616 [INFO] (11744 MainThread) [upload_tools.py-381] [root upload_tools __exit__] Successfully deleted archive file /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip
+2015-07-17 03:38:34,616 [INFO] (11744 MainThread) [bundleLogs.py-82] [root bundleLogs main] [Instance: i-d4beec07] Successfully finished bundling 38 log(s)
+2015-07-17 22:10:42,193 [INFO] (22451 MainThread) [tailLogs.py-56] [root tailLogs main] Starting tail logs task with batch id a82513cf-2cd0-11e5-83ec-5bd13a7a8bbb
+2015-07-17 22:10:42,198 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-version-deployment.log
+2015-07-17 22:10:42,198 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/httpd.out
+2015-07-17 22:10:42,198 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/error_log
+2015-07-17 22:10:42,199 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/supervisord.log
+2015-07-17 22:10:42,199 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/access_log
+2015-07-17 22:10:42,201 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-activity.log
+2015-07-17 22:10:42,205 [INFO] (22451 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-commandprocessor.log
+2015-07-17 22:10:42,320 [INFO] (22451 MainThread) [s3_tools.py-208] [root s3_tools _process_result] Received status code 200 with text: 
+2015-07-17 22:10:42,320 [INFO] (22451 MainThread) [upload_tools.py-294] [root upload_tools __exit__] Successfully uploaded tailed content for 7 files to s3 at location resources/environments/logs/tail/e-d7jmiqupxb/i-d4beec07/TailLogs-1437171042205.out
+2015-07-17 22:10:42,320 [INFO] (22451 MainThread) [tailLogs.py-92] [root tailLogs main] [Instance: i-d4beec07] Successfully finished tailing 7 log(s)
+2015-07-17 22:51:07,224 [INFO] (23391 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 4dc72b7b-2cd6-11e5-836e-57e138c506fe

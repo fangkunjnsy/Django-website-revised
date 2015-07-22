@@ -1,0 +1,13 @@
+2015-07-16 06:33:49,660 [INFO] (31154 MainThread) [tailLogs.py-56] [root tailLogs main] Starting tail logs task with batch id 9cac8edb-2b84-11e5-92e2-1d216f54ca55
+2015-07-16 06:33:49,664 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-version-deployment.log
+2015-07-16 06:33:49,664 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/httpd.out
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/error_log
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /opt/python/log/supervisord.log
+2015-07-16 06:33:49,665 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/httpd/access_log
+2015-07-16 06:33:49,668 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-activity.log
+2015-07-16 06:33:49,671 [INFO] (31154 MainThread) [upload_tools.py-270] [root upload_tools execute] Successfully tailed file /var/log/eb-commandprocessor.log
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [s3_tools.py-208] [root s3_tools _process_result] Received status code 200 with text: 
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [upload_tools.py-294] [root upload_tools __exit__] Successfully uploaded tailed content for 7 files to s3 at location resources/environments/logs/tail/e-d7jmiqupxb/i-d4beec07/TailLogs-1437028429671.out
+2015-07-16 06:33:49,855 [INFO] (31154 MainThread) [tailLogs.py-92] [root tailLogs main] [Instance: i-d4beec07] Successfully finished tailing 7 log(s)
+2015-07-17 03:38:33,965 [INFO] (11744 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 4b254321-2c35-11e5-bc42-4f6a85118248
+2015-07-17 03:38:33,972 [INFO] (11744 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/rotated/error_log-1437069661.gz to /tmp/BundleLogs-4b254321-2c35-11e5-bc42-4f6a85118248.zip

@@ -1,0 +1,190 @@
+2015-07-16 01:56:24,371 [INFO] -----------------------Starting build-----------------------
+2015-07-16 01:56:24,519 [INFO] Running configSets: _OnInstanceBoot
+2015-07-16 01:56:24,520 [INFO] Running configSet _OnInstanceBoot
+2015-07-16 01:56:24,526 [INFO] Running config AWSEBBaseConfig
+2015-07-16 01:56:24,531 [INFO] Command clearbackupfiles succeeded
+2015-07-16 01:56:24,541 [INFO] Running config AWSEBMessageOfTheDay
+2015-07-16 01:56:24,545 [INFO] Command 01clearoriginal succeeded
+2015-07-16 01:56:24,553 [INFO] Command 02createbanner succeeded
+2015-07-16 01:56:24,611 [INFO] Command 03updatebanner succeeded
+2015-07-16 01:56:24,621 [INFO] Running config Infra-InstallBaseHooksPkg
+2015-07-16 01:56:24,932 [INFO] Running config Infra-InstallContainerHooksPkg
+2015-07-16 01:56:25,598 [INFO] Running config Infra-WriteLeaderTestScript
+2015-07-16 01:56:25,607 [INFO] Running config AWSEBLockCfnBootstap
+2015-07-16 01:56:25,611 [INFO] Command add_lock succeeded
+2015-07-16 01:56:25,619 [INFO] Running config Infra-WriteTailLogsConf
+2015-07-16 01:56:25,628 [INFO] Running config Infra-WriteSystemTailLogsConf
+2015-07-16 01:56:25,637 [INFO] Running config Infra-WriteBundleLogsConf
+2015-07-16 01:56:25,643 [INFO] Running config Infra-WritePublishLogsConf
+2015-07-16 01:56:25,647 [INFO] Running config Infra-WritePublishLogsCron
+2015-07-16 01:56:25,649 [INFO] ConfigSets completed
+2015-07-16 01:56:25,771 [INFO] -----------------------Build complete-----------------------
+2015-07-16 01:56:27,817 [INFO] -----------------------Starting build-----------------------
+2015-07-16 01:56:27,840 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-16 01:56:27,841 [INFO] Running configSet Infra-WriteApplication2
+2015-07-16 01:56:27,842 [INFO] Running config Infra-WriteApplication2
+2015-07-16 01:56:29,130 [INFO] Command 01downloadVersion succeeded
+2015-07-16 01:56:29,133 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-16 01:56:29,136 [INFO] ConfigSets completed
+2015-07-16 01:56:29,145 [INFO] -----------------------Build complete-----------------------
+2015-07-16 01:56:57,487 [INFO] -----------------------Starting build-----------------------
+2015-07-16 01:56:57,676 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-16 01:56:57,676 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-16 01:56:57,677 [INFO] ConfigSets completed
+2015-07-16 01:56:57,683 [INFO] -----------------------Build complete-----------------------
+2015-07-16 05:37:42,728 [INFO] -----------------------Starting build-----------------------
+2015-07-16 05:37:42,748 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-16 05:37:42,749 [INFO] Running configSet Infra-WriteApplication2
+2015-07-16 05:37:42,750 [INFO] Running config Infra-WriteApplication2
+2015-07-16 05:37:43,072 [INFO] Command 01downloadVersion succeeded
+2015-07-16 05:37:43,075 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-16 05:37:43,078 [INFO] ConfigSets completed
+2015-07-16 05:37:43,086 [INFO] -----------------------Build complete-----------------------
+2015-07-16 05:37:43,319 [INFO] -----------------------Starting build-----------------------
+2015-07-16 05:37:43,337 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-16 05:37:43,337 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-16 05:37:43,337 [INFO] ConfigSets completed
+2015-07-16 05:37:43,344 [INFO] -----------------------Build complete-----------------------
+2015-07-16 05:46:47,851 [INFO] -----------------------Starting build-----------------------
+2015-07-16 05:46:47,874 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-16 05:46:47,875 [INFO] Running configSet Infra-WriteApplication2
+2015-07-16 05:46:47,876 [INFO] Running config Infra-WriteApplication2
+2015-07-16 05:46:48,264 [INFO] Command 01downloadVersion succeeded
+2015-07-16 05:46:48,267 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-16 05:46:48,270 [INFO] ConfigSets completed
+2015-07-16 05:46:48,278 [INFO] -----------------------Build complete-----------------------
+2015-07-16 05:46:48,560 [INFO] -----------------------Starting build-----------------------
+2015-07-16 05:46:48,577 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-16 05:46:48,578 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-16 05:46:48,578 [INFO] ConfigSets completed
+2015-07-16 05:46:48,584 [INFO] -----------------------Build complete-----------------------
+2015-07-16 06:11:03,983 [INFO] -----------------------Starting build-----------------------
+2015-07-16 06:11:04,005 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-16 06:11:04,005 [INFO] Running configSet Infra-WriteApplication2
+2015-07-16 06:11:04,006 [INFO] Running config Infra-WriteApplication2
+2015-07-16 06:11:04,339 [INFO] Command 01downloadVersion succeeded
+2015-07-16 06:11:04,343 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-16 06:11:04,345 [INFO] ConfigSets completed
+2015-07-16 06:11:04,353 [INFO] -----------------------Build complete-----------------------
+2015-07-16 06:11:04,587 [INFO] -----------------------Starting build-----------------------
+2015-07-16 06:11:04,606 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-16 06:11:04,607 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-16 06:11:04,607 [INFO] ConfigSets completed
+2015-07-16 06:11:04,613 [INFO] -----------------------Build complete-----------------------
+2015-07-16 06:18:10,075 [INFO] -----------------------Starting build-----------------------
+2015-07-16 06:18:10,096 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-16 06:18:10,097 [INFO] Running configSet Infra-WriteApplication2
+2015-07-16 06:18:10,098 [INFO] Running config Infra-WriteApplication2
+2015-07-16 06:18:10,393 [INFO] Command 01downloadVersion succeeded
+2015-07-16 06:18:10,396 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-16 06:18:10,399 [INFO] ConfigSets completed
+2015-07-16 06:18:10,407 [INFO] -----------------------Build complete-----------------------
+2015-07-16 06:18:10,693 [INFO] -----------------------Starting build-----------------------
+2015-07-16 06:18:10,711 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-16 06:18:10,711 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-16 06:18:10,712 [INFO] ConfigSets completed
+2015-07-16 06:18:10,721 [INFO] -----------------------Build complete-----------------------
+2015-07-17 00:03:54,734 [INFO] -----------------------Starting build-----------------------
+2015-07-17 00:03:54,763 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 00:03:54,764 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 00:03:54,765 [INFO] Running config Infra-WriteApplication2
+2015-07-17 00:03:55,085 [INFO] Command 01downloadVersion succeeded
+2015-07-17 00:03:55,088 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 00:03:55,091 [INFO] ConfigSets completed
+2015-07-17 00:03:55,100 [INFO] -----------------------Build complete-----------------------
+2015-07-17 00:03:55,384 [INFO] -----------------------Starting build-----------------------
+2015-07-17 00:03:55,406 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 00:03:55,406 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 00:03:55,407 [INFO] ConfigSets completed
+2015-07-17 00:03:55,414 [INFO] -----------------------Build complete-----------------------
+2015-07-17 00:34:10,194 [INFO] -----------------------Starting build-----------------------
+2015-07-17 00:34:10,224 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 00:34:10,225 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 00:34:10,226 [INFO] Running config Infra-WriteApplication2
+2015-07-17 00:34:10,519 [INFO] Command 01downloadVersion succeeded
+2015-07-17 00:34:10,522 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 00:34:10,525 [INFO] ConfigSets completed
+2015-07-17 00:34:10,540 [INFO] -----------------------Build complete-----------------------
+2015-07-17 00:34:10,829 [INFO] -----------------------Starting build-----------------------
+2015-07-17 00:34:10,890 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 00:34:10,890 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 00:34:10,891 [INFO] ConfigSets completed
+2015-07-17 00:34:10,913 [INFO] -----------------------Build complete-----------------------
+2015-07-17 03:00:40,476 [INFO] -----------------------Starting build-----------------------
+2015-07-17 03:00:40,496 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 03:00:40,497 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 03:00:40,497 [INFO] Running config Infra-WriteApplication2
+2015-07-17 03:00:40,790 [INFO] Command 01downloadVersion succeeded
+2015-07-17 03:00:40,793 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 03:00:40,796 [INFO] ConfigSets completed
+2015-07-17 03:00:40,804 [INFO] -----------------------Build complete-----------------------
+2015-07-17 03:00:41,037 [INFO] -----------------------Starting build-----------------------
+2015-07-17 03:00:41,055 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 03:00:41,056 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 03:00:41,056 [INFO] ConfigSets completed
+2015-07-17 03:00:41,062 [INFO] -----------------------Build complete-----------------------
+2015-07-17 03:05:31,792 [INFO] -----------------------Starting build-----------------------
+2015-07-17 03:05:31,813 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 03:05:31,813 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 03:05:31,814 [INFO] Running config Infra-WriteApplication2
+2015-07-17 03:05:32,154 [INFO] Command 01downloadVersion succeeded
+2015-07-17 03:05:32,158 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 03:05:32,160 [INFO] ConfigSets completed
+2015-07-17 03:05:32,170 [INFO] -----------------------Build complete-----------------------
+2015-07-17 03:05:32,407 [INFO] -----------------------Starting build-----------------------
+2015-07-17 03:05:32,425 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 03:05:32,426 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 03:05:32,426 [INFO] ConfigSets completed
+2015-07-17 03:05:32,433 [INFO] -----------------------Build complete-----------------------
+2015-07-17 04:18:51,617 [INFO] -----------------------Starting build-----------------------
+2015-07-17 04:18:51,637 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 04:18:51,638 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 04:18:51,639 [INFO] Running config Infra-WriteApplication2
+2015-07-17 04:18:51,945 [INFO] Command 01downloadVersion succeeded
+2015-07-17 04:18:51,948 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 04:18:51,951 [INFO] ConfigSets completed
+2015-07-17 04:18:51,959 [INFO] -----------------------Build complete-----------------------
+2015-07-17 04:18:52,247 [INFO] -----------------------Starting build-----------------------
+2015-07-17 04:18:52,265 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 04:18:52,265 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 04:18:52,265 [INFO] ConfigSets completed
+2015-07-17 04:18:52,272 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:08:55,775 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:08:55,796 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 22:08:55,797 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 22:08:55,798 [INFO] Running config Infra-WriteApplication2
+2015-07-17 22:08:56,413 [INFO] Command 01downloadVersion succeeded
+2015-07-17 22:08:56,416 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 22:08:56,418 [INFO] ConfigSets completed
+2015-07-17 22:08:56,428 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:08:56,712 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:08:56,730 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 22:08:56,731 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 22:08:56,731 [INFO] ConfigSets completed
+2015-07-17 22:08:56,737 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:49:45,404 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:49:45,443 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 22:49:45,444 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 22:49:45,445 [INFO] Running config Infra-WriteApplication2
+2015-07-17 22:49:45,754 [INFO] Command 01downloadVersion succeeded
+2015-07-17 22:49:45,758 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 22:49:45,760 [INFO] ConfigSets completed
+2015-07-17 22:49:45,768 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:49:46,051 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:49:46,071 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 22:49:46,071 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 22:49:46,071 [INFO] ConfigSets completed
+2015-07-17 22:49:46,077 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:58:30,075 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:58:30,097 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-17 22:58:30,098 [INFO] Running configSet Infra-WriteApplication2
+2015-07-17 22:58:30,099 [INFO] Running config Infra-WriteApplication2
+2015-07-17 22:58:30,398 [INFO] Command 01downloadVersion succeeded
+2015-07-17 22:58:30,401 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-17 22:58:30,404 [INFO] ConfigSets completed
+2015-07-17 22:58:30,413 [INFO] -----------------------Build complete-----------------------
+2015-07-17 22:58:30,645 [INFO] -----------------------Starting build-----------------------
+2015-07-17 22:58:30,664 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-17 22:58:30,664 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-17 22:58:30,665 [INFO] ConfigSets completed
+2015-07-17 22:58:30,671 [INFO] -----------------------Build complete-----------------------

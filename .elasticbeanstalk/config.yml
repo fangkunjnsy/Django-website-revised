@@ -1,0 +1,10 @@
+branch-defaults:
+  default:
+    environment: django-ecommerce-dev
+global:
+  application_name: django_ecommerce
+  default_ec2_keyname: asw-eb
+  default_platform: Python 2.7
+  default_region: us-east-1
+  profile: eb-cli
+  sc: null

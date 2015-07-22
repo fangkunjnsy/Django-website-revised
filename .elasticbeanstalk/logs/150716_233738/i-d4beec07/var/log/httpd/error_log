@@ -1,0 +1,4 @@
+[Fri Jul 17 03:01:01.359981 2015] [auth_digest:notice] [pid 2462] AH01757: generating secret for digest authentication ...
+[Fri Jul 17 03:01:01.360573 2015] [lbmethod_heartbeat:notice] [pid 2462] AH02282: No slotmem from mod_heartmonitor
+[Fri Jul 17 03:01:01.362217 2015] [mpm_prefork:notice] [pid 2462] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 configured -- resuming normal operations
+[Fri Jul 17 03:01:01.362238 2015] [core:notice] [pid 2462] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'

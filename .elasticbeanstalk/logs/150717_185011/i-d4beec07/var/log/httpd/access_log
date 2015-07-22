@@ -1,0 +1,6 @@
+172.31.27.226 - - [17/Jul/2015:22:23:49 +0000] "GET / HTTP/1.1" 200 161 "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+172.31.27.226 - - [17/Jul/2015:22:23:59 +0000] "GET / HTTP/1.1" 200 161 "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+::1 - - [17/Jul/2015:22:24:59 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [17/Jul/2015:22:25:00 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [17/Jul/2015:22:25:04 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [17/Jul/2015:22:25:05 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"

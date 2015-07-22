@@ -1,0 +1,6 @@
+2015-07-16 01:56:36,438 CRIT Supervisor running as root (no user in config file)
+2015-07-16 01:56:36,459 INFO RPC interface 'supervisor' initialized
+2015-07-16 01:56:36,459 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-16 01:56:36,459 INFO supervisord started with pid 2382
+2015-07-16 01:56:37,461 INFO spawned: 'httpd' with pid 2462
+2015-07-16 01:56:38,462 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

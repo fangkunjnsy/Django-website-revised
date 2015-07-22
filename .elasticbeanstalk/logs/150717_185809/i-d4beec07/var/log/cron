@@ -1,0 +1,722 @@
+Jul 16 01:56:13 ip-172-31-10-139 crond[2128]: (CRON) STARTUP (1.4.4)
+Jul 16 01:56:13 ip-172-31-10-139 crond[2128]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 54% if used.)
+Jul 16 01:56:13 ip-172-31-10-139 crond[2128]: (CRON) INFO (running with inotify support)
+Jul 16 02:01:01 ip-172-31-10-139 CROND[3023]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3023]: starting 0anacron
+Jul 16 02:01:01 ip-172-31-10-139 anacron[3032]: Anacron started on 2015-07-16
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3034]: finished 0anacron
+Jul 16 02:01:01 ip-172-31-10-139 anacron[3032]: Will run job `cron.monthly' in 59 min.
+Jul 16 02:01:01 ip-172-31-10-139 anacron[3032]: Jobs will be executed sequentially
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3023]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3055]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3023]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3062]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3023]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3069]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 02:05:01 ip-172-31-10-139 CROND[3102]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 02:10:01 ip-172-31-10-139 CROND[3136]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 02:25:01 ip-172-31-10-139 CROND[3525]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 02:30:01 ip-172-31-10-139 CROND[3733]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 02:45:01 ip-172-31-10-139 CROND[4315]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 02:50:01 ip-172-31-10-139 CROND[4526]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 03:00:01 ip-172-31-10-139 anacron[3032]: Job `cron.monthly' started
+Jul 16 03:00:01 ip-172-31-10-139 anacron[3032]: Job `cron.monthly' terminated
+Jul 16 03:00:01 ip-172-31-10-139 anacron[3032]: Normal exit (1 job run)
+Jul 16 03:01:01 ip-172-31-10-139 CROND[4905]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4905]: starting 0anacron
+Jul 16 03:01:01 ip-172-31-10-139 anacron[4914]: Anacron started on 2015-07-16
+Jul 16 03:01:01 ip-172-31-10-139 anacron[4914]: Will run job `cron.daily' in 30 min.
+Jul 16 03:01:01 ip-172-31-10-139 anacron[4914]: Will run job `cron.weekly' in 50 min.
+Jul 16 03:01:01 ip-172-31-10-139 anacron[4914]: Jobs will be executed sequentially
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4916]: finished 0anacron
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4905]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4938]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4905]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4945]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4905]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4952]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 03:05:01 ip-172-31-10-139 CROND[5108]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 03:10:01 ip-172-31-10-139 CROND[5302]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 03:17:01 ip-172-31-10-139 CROND[5613]: (root) CMD (/sbin/start --quiet update-motd)
+Jul 16 03:25:01 ip-172-31-10-139 CROND[5673]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 03:30:01 ip-172-31-10-139 CROND[5707]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 03:31:01 ip-172-31-10-139 anacron[4914]: Job `cron.daily' started
+Jul 16 03:31:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[5718]: starting logrotate
+Jul 16 03:31:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[5726]: finished logrotate
+Jul 16 03:31:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[5718]: starting man-db.cron
+Jul 16 03:31:23 ip-172-31-10-139 run-parts(/etc/cron.daily)[27397]: finished man-db.cron
+Jul 16 03:31:23 ip-172-31-10-139 run-parts(/etc/cron.daily)[5718]: starting tmpwatch
+Jul 16 03:31:23 ip-172-31-10-139 run-parts(/etc/cron.daily)[27423]: finished tmpwatch
+Jul 16 03:31:23 ip-172-31-10-139 anacron[4914]: Job `cron.daily' terminated
+Jul 16 03:45:01 ip-172-31-10-139 CROND[27535]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 03:50:01 ip-172-31-10-139 CROND[27569]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 03:51:01 ip-172-31-10-139 anacron[4914]: Job `cron.weekly' started
+Jul 16 03:51:01 ip-172-31-10-139 anacron[4914]: Job `cron.weekly' terminated
+Jul 16 03:51:01 ip-172-31-10-139 anacron[4914]: Normal exit (2 jobs run)
+Jul 16 04:01:01 ip-172-31-10-139 CROND[27647]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27647]: starting 0anacron
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27656]: finished 0anacron
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27647]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27678]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27647]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27685]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27647]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[27692]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 04:05:01 ip-172-31-10-139 CROND[27753]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 04:10:01 ip-172-31-10-139 CROND[27787]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 04:25:01 ip-172-31-10-139 CROND[27883]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 04:30:01 ip-172-31-10-139 CROND[27917]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 04:45:01 ip-172-31-10-139 CROND[28039]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 04:50:01 ip-172-31-10-139 CROND[28073]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 05:01:01 ip-172-31-10-139 CROND[28147]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28147]: starting 0anacron
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28156]: finished 0anacron
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28147]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28177]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28147]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28184]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28147]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[28191]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 05:05:01 ip-172-31-10-139 CROND[28256]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 05:10:01 ip-172-31-10-139 CROND[28290]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 05:25:01 ip-172-31-10-139 CROND[28393]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 05:30:01 ip-172-31-10-139 CROND[28455]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 05:45:01 ip-172-31-10-139 CROND[29090]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 05:50:01 ip-172-31-10-139 CROND[29693]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 06:01:01 ip-172-31-10-139 CROND[29767]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29767]: starting 0anacron
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29776]: finished 0anacron
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29767]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29798]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29767]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29805]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29767]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[29812]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 06:05:01 ip-172-31-10-139 CROND[29846]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 06:10:01 ip-172-31-10-139 CROND[29880]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 06:25:01 ip-172-31-10-139 CROND[31082]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 06:30:01 ip-172-31-10-139 CROND[31116]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 06:45:01 ip-172-31-10-139 CROND[31230]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 06:50:01 ip-172-31-10-139 CROND[31292]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 07:01:01 ip-172-31-10-139 CROND[31366]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31366]: starting 0anacron
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31375]: finished 0anacron
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31366]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31397]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31366]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31404]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31366]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 07:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31411]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 07:05:01 ip-172-31-10-139 CROND[31444]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 07:10:01 ip-172-31-10-139 CROND[31506]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 07:25:01 ip-172-31-10-139 CROND[31600]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 07:30:01 ip-172-31-10-139 CROND[31637]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 07:45:01 ip-172-31-10-139 CROND[31761]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 07:50:01 ip-172-31-10-139 CROND[31795]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 08:01:01 ip-172-31-10-139 CROND[31871]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31871]: starting 0anacron
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31880]: finished 0anacron
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31871]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31902]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31871]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31909]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31871]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[31916]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 08:05:01 ip-172-31-10-139 CROND[31978]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 08:10:01 ip-172-31-10-139 CROND[32012]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 08:25:01 ip-172-31-10-139 CROND[32110]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 08:30:01 ip-172-31-10-139 CROND[32144]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 08:45:01 ip-172-31-10-139 CROND[32268]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 08:50:01 ip-172-31-10-139 CROND[32300]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 09:01:01 ip-172-31-10-139 CROND[32402]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32402]: starting 0anacron
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32411]: finished 0anacron
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32402]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32433]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32402]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32440]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32402]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[32447]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 09:05:01 ip-172-31-10-139 CROND[32480]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 09:10:01 ip-172-31-10-139 CROND[32514]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 09:25:01 ip-172-31-10-139 CROND[32641]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 09:30:01 ip-172-31-10-139 CROND[32675]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 09:45:01 ip-172-31-10-139 CROND[303]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 09:50:01 ip-172-31-10-139 CROND[337]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 10:01:01 ip-172-31-10-139 CROND[441]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[441]: starting 0anacron
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[450]: finished 0anacron
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[441]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[472]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[441]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[480]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[441]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 10:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[487]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 10:05:01 ip-172-31-10-139 CROND[520]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 10:10:01 ip-172-31-10-139 CROND[554]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 10:25:01 ip-172-31-10-139 CROND[679]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 10:30:01 ip-172-31-10-139 CROND[715]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 10:45:01 ip-172-31-10-139 CROND[840]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 10:50:01 ip-172-31-10-139 CROND[874]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 11:01:01 ip-172-31-10-139 CROND[948]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[948]: starting 0anacron
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[957]: finished 0anacron
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[948]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[978]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[948]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[985]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[948]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[992]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 11:05:01 ip-172-31-10-139 CROND[1025]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 11:10:01 ip-172-31-10-139 CROND[1087]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 11:25:01 ip-172-31-10-139 CROND[1183]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 11:30:01 ip-172-31-10-139 CROND[1217]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 11:45:01 ip-172-31-10-139 CROND[1339]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 11:50:01 ip-172-31-10-139 CROND[1375]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 12:01:01 ip-172-31-10-139 CROND[1454]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1454]: starting 0anacron
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1463]: finished 0anacron
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1454]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1485]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1454]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1492]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1454]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[1499]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 12:05:01 ip-172-31-10-139 CROND[1535]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 12:10:01 ip-172-31-10-139 CROND[1598]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 12:25:01 ip-172-31-10-139 CROND[1695]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 12:30:01 ip-172-31-10-139 CROND[1731]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 12:45:01 ip-172-31-10-139 CROND[1856]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 12:50:01 ip-172-31-10-139 CROND[1891]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 13:01:01 ip-172-31-10-139 CROND[2000]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2000]: starting 0anacron
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2009]: finished 0anacron
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2000]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2030]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2000]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2037]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2000]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2044]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 13:05:01 ip-172-31-10-139 CROND[2079]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 13:10:01 ip-172-31-10-139 CROND[2112]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 13:25:01 ip-172-31-10-139 CROND[2240]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 13:30:01 ip-172-31-10-139 CROND[2275]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 13:45:01 ip-172-31-10-139 CROND[2371]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 13:50:01 ip-172-31-10-139 CROND[2406]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 14:01:01 ip-172-31-10-139 CROND[2518]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2518]: starting 0anacron
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2527]: finished 0anacron
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2518]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2548]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2518]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2555]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2518]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[2562]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 14:05:01 ip-172-31-10-139 CROND[2597]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 14:10:01 ip-172-31-10-139 CROND[2631]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 14:25:01 ip-172-31-10-139 CROND[2755]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 14:30:01 ip-172-31-10-139 CROND[2789]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 14:45:01 ip-172-31-10-139 CROND[2911]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 14:50:01 ip-172-31-10-139 CROND[2945]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 15:01:01 ip-172-31-10-139 CROND[3019]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3019]: starting 0anacron
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3028]: finished 0anacron
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3019]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3049]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3019]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3056]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3019]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3063]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 15:05:01 ip-172-31-10-139 CROND[3097]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 15:10:01 ip-172-31-10-139 CROND[3133]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 15:25:01 ip-172-31-10-139 CROND[3257]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 15:30:01 ip-172-31-10-139 CROND[3291]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 15:45:01 ip-172-31-10-139 CROND[3415]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 15:50:01 ip-172-31-10-139 CROND[3449]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 16:01:01 ip-172-31-10-139 CROND[3523]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3523]: starting 0anacron
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3532]: finished 0anacron
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3523]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3554]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3523]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3561]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3523]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[3568]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 16:05:01 ip-172-31-10-139 CROND[3601]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 16:10:01 ip-172-31-10-139 CROND[3663]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 16:25:01 ip-172-31-10-139 CROND[3759]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 16:30:01 ip-172-31-10-139 CROND[3793]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 16:45:01 ip-172-31-10-139 CROND[3917]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 16:50:01 ip-172-31-10-139 CROND[3951]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 17:01:01 ip-172-31-10-139 CROND[4053]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4053]: starting 0anacron
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4062]: finished 0anacron
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4053]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4083]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4053]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4090]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4053]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4097]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 17:05:01 ip-172-31-10-139 CROND[4130]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 17:10:01 ip-172-31-10-139 CROND[4164]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 17:25:01 ip-172-31-10-139 CROND[4258]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 17:30:01 ip-172-31-10-139 CROND[4320]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 17:45:01 ip-172-31-10-139 CROND[4416]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 17:50:01 ip-172-31-10-139 CROND[4450]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 18:01:01 ip-172-31-10-139 CROND[4554]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4554]: starting 0anacron
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4563]: finished 0anacron
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4554]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4584]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4554]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4591]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4554]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[4598]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 18:05:01 ip-172-31-10-139 CROND[4631]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 18:10:01 ip-172-31-10-139 CROND[4665]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 18:25:01 ip-172-31-10-139 CROND[4789]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 18:30:01 ip-172-31-10-139 CROND[4823]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 18:45:01 ip-172-31-10-139 CROND[4917]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 18:50:01 ip-172-31-10-139 CROND[4979]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 19:01:01 ip-172-31-10-139 CROND[5053]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5053]: starting 0anacron
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5062]: finished 0anacron
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5053]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5083]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5053]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5090]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5053]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5097]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 19:05:01 ip-172-31-10-139 CROND[5130]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 19:10:01 ip-172-31-10-139 CROND[5164]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 19:25:01 ip-172-31-10-139 CROND[5288]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 19:30:01 ip-172-31-10-139 CROND[5322]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 19:45:01 ip-172-31-10-139 CROND[5446]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 19:50:01 ip-172-31-10-139 CROND[5484]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 20:01:01 ip-172-31-10-139 CROND[5558]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5558]: starting 0anacron
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5567]: finished 0anacron
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5558]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5589]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5558]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5596]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5558]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[5603]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 20:05:01 ip-172-31-10-139 CROND[5665]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 20:10:01 ip-172-31-10-139 CROND[5699]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 20:25:01 ip-172-31-10-139 CROND[5795]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 20:30:01 ip-172-31-10-139 CROND[5857]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 20:45:01 ip-172-31-10-139 CROND[5953]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 20:50:01 ip-172-31-10-139 CROND[6015]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 21:01:01 ip-172-31-10-139 CROND[6089]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6089]: starting 0anacron
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6098]: finished 0anacron
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6089]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6119]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6089]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6126]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6089]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6133]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 21:05:01 ip-172-31-10-139 CROND[6167]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 21:10:01 ip-172-31-10-139 CROND[6199]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 21:25:01 ip-172-31-10-139 CROND[6323]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 21:30:01 ip-172-31-10-139 CROND[6357]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 21:45:01 ip-172-31-10-139 CROND[6481]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 21:50:01 ip-172-31-10-139 CROND[6515]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 22:01:01 ip-172-31-10-139 CROND[6591]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6591]: starting 0anacron
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6600]: finished 0anacron
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6591]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6621]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6591]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6628]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6591]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[6635]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 22:05:01 ip-172-31-10-139 CROND[6669]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 22:10:01 ip-172-31-10-139 CROND[6703]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 22:25:01 ip-172-31-10-139 CROND[6829]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 22:30:01 ip-172-31-10-139 CROND[6861]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 22:45:01 ip-172-31-10-139 CROND[6985]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 22:50:01 ip-172-31-10-139 CROND[7019]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 23:01:01 ip-172-31-10-139 CROND[7093]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7093]: starting 0anacron
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7102]: finished 0anacron
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7093]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7124]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7093]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7131]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7093]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 23:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7138]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 16 23:05:01 ip-172-31-10-139 CROND[7199]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 23:10:01 ip-172-31-10-139 CROND[7241]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 23:25:01 ip-172-31-10-139 CROND[7365]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 23:30:01 ip-172-31-10-139 CROND[7399]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 16 23:45:01 ip-172-31-10-139 CROND[7493]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 16 23:50:01 ip-172-31-10-139 CROND[7527]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 00:01:01 ip-172-31-10-139 CROND[7631]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7631]: starting 0anacron
+Jul 17 00:01:01 ip-172-31-10-139 anacron[7640]: Anacron started on 2015-07-17
+Jul 17 00:01:01 ip-172-31-10-139 anacron[7640]: Jobs will be executed sequentially
+Jul 17 00:01:01 ip-172-31-10-139 anacron[7640]: Normal exit (0 jobs run)
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7642]: finished 0anacron
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7631]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7664]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7631]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7671]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7631]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 00:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[7678]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 00:05:01 ip-172-31-10-139 CROND[8250]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 00:10:01 ip-172-31-10-139 CROND[8284]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 00:25:01 ip-172-31-10-139 CROND[8408]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 00:30:01 ip-172-31-10-139 CROND[8442]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 00:45:01 ip-172-31-10-139 CROND[9081]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 00:50:01 ip-172-31-10-139 CROND[9143]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 01:01:01 ip-172-31-10-139 CROND[9217]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9217]: starting 0anacron
+Jul 17 01:01:01 ip-172-31-10-139 anacron[9226]: Anacron started on 2015-07-17
+Jul 17 01:01:01 ip-172-31-10-139 anacron[9226]: Jobs will be executed sequentially
+Jul 17 01:01:01 ip-172-31-10-139 anacron[9226]: Normal exit (0 jobs run)
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9228]: finished 0anacron
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9217]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9250]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9217]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9257]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9217]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 01:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9264]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 01:05:01 ip-172-31-10-139 CROND[9297]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 01:10:01 ip-172-31-10-139 CROND[9331]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 01:25:01 ip-172-31-10-139 CROND[9455]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 01:30:01 ip-172-31-10-139 CROND[9492]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 01:45:01 ip-172-31-10-139 CROND[9616]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 01:50:01 ip-172-31-10-139 CROND[9648]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 02:01:01 ip-172-31-10-139 CROND[9724]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9724]: starting 0anacron
+Jul 17 02:01:01 ip-172-31-10-139 anacron[9733]: Anacron started on 2015-07-17
+Jul 17 02:01:01 ip-172-31-10-139 anacron[9733]: Jobs will be executed sequentially
+Jul 17 02:01:01 ip-172-31-10-139 anacron[9733]: Normal exit (0 jobs run)
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9735]: finished 0anacron
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9724]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9757]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9724]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9764]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9724]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 02:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[9771]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 02:05:01 ip-172-31-10-139 CROND[9804]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 02:10:01 ip-172-31-10-139 CROND[9866]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 02:25:01 ip-172-31-10-139 CROND[9965]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 02:30:01 ip-172-31-10-139 CROND[9999]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 02:45:01 ip-172-31-10-139 CROND[10123]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 02:50:01 ip-172-31-10-139 CROND[10155]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 03:01:01 ip-172-31-10-139 CROND[10796]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10796]: starting 0anacron
+Jul 17 03:01:01 ip-172-31-10-139 anacron[10805]: Anacron started on 2015-07-17
+Jul 17 03:01:01 ip-172-31-10-139 anacron[10805]: Will run job `cron.daily' in 11 min.
+Jul 17 03:01:01 ip-172-31-10-139 anacron[10805]: Jobs will be executed sequentially
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10807]: finished 0anacron
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10796]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10829]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10796]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10836]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10796]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 03:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[10843]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 03:05:01 ip-172-31-10-139 CROND[10876]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 03:10:01 ip-172-31-10-139 CROND[11447]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 03:12:01 ip-172-31-10-139 anacron[10805]: Job `cron.daily' started
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11479]: starting logrotate
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11487]: finished logrotate
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11479]: starting man-db.cron
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11498]: finished man-db.cron
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11479]: starting tmpwatch
+Jul 17 03:12:01 ip-172-31-10-139 run-parts(/etc/cron.daily)[11524]: finished tmpwatch
+Jul 17 03:12:01 ip-172-31-10-139 anacron[10805]: Job `cron.daily' terminated
+Jul 17 03:12:01 ip-172-31-10-139 anacron[10805]: Normal exit (1 job run)
+Jul 17 03:17:01 ip-172-31-10-139 CROND[11556]: (root) CMD (/sbin/start --quiet update-motd)
+Jul 17 03:25:01 ip-172-31-10-139 CROND[11616]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 03:30:01 ip-172-31-10-139 CROND[11678]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 03:45:01 ip-172-31-10-139 CROND[11792]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 03:50:01 ip-172-31-10-139 CROND[11826]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 04:01:01 ip-172-31-10-139 CROND[11930]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11930]: starting 0anacron
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11939]: finished 0anacron
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11930]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11961]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11930]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11968]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11930]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 04:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[11975]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 04:05:01 ip-172-31-10-139 CROND[12009]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 04:10:01 ip-172-31-10-139 CROND[12043]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 04:25:01 ip-172-31-10-139 CROND[12705]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 04:30:01 ip-172-31-10-139 CROND[12747]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 04:45:01 ip-172-31-10-139 CROND[12843]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 04:50:01 ip-172-31-10-139 CROND[12905]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 05:01:01 ip-172-31-10-139 CROND[12979]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[12979]: starting 0anacron
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[12988]: finished 0anacron
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[12979]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13010]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[12979]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13017]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[12979]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 05:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13024]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 05:05:01 ip-172-31-10-139 CROND[13062]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 05:10:01 ip-172-31-10-139 CROND[13096]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 05:25:01 ip-172-31-10-139 CROND[13220]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 05:30:01 ip-172-31-10-139 CROND[13265]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 05:45:01 ip-172-31-10-139 CROND[13391]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 05:50:01 ip-172-31-10-139 CROND[13425]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 06:01:01 ip-172-31-10-139 CROND[13501]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13501]: starting 0anacron
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13510]: finished 0anacron
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13501]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13532]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13501]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13539]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13501]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 06:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[13546]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 06:05:01 ip-172-31-10-139 CROND[13607]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 06:10:02 ip-172-31-10-139 CROND[13641]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 06:25:01 ip-172-31-10-139 CROND[13737]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 06:30:01 ip-172-31-10-139 CROND[13771]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 06:45:01 ip-172-31-10-139 CROND[13901]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 06:50:01 ip-172-31-10-139 CROND[13935]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 07:01:01 ip-172-31-10-139 CROND[14037]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14037]: starting 0anacron
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14046]: finished 0anacron
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14037]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14068]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14037]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14075]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14037]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 07:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14082]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 07:05:01 ip-172-31-10-139 CROND[14115]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 07:10:01 ip-172-31-10-139 CROND[14149]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 07:25:01 ip-172-31-10-139 CROND[14245]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 07:30:01 ip-172-31-10-139 CROND[14311]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 07:45:01 ip-172-31-10-139 CROND[14407]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 07:50:01 ip-172-31-10-139 CROND[14441]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 08:01:01 ip-172-31-10-139 CROND[14545]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14545]: starting 0anacron
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14554]: finished 0anacron
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14545]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14576]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14545]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14583]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14545]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 08:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[14590]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 08:05:01 ip-172-31-10-139 CROND[14623]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 08:10:01 ip-172-31-10-139 CROND[14657]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 08:25:01 ip-172-31-10-139 CROND[14779]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 08:30:01 ip-172-31-10-139 CROND[14819]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 08:45:01 ip-172-31-10-139 CROND[14915]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 08:50:01 ip-172-31-10-139 CROND[14977]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 09:01:01 ip-172-31-10-139 CROND[15051]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15051]: starting 0anacron
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15060]: finished 0anacron
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15051]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15082]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15051]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15089]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15051]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 09:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15096]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 09:05:01 ip-172-31-10-139 CROND[15129]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 09:10:01 ip-172-31-10-139 CROND[15163]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 09:25:01 ip-172-31-10-139 CROND[15287]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 09:30:01 ip-172-31-10-139 CROND[15326]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 09:45:01 ip-172-31-10-139 CROND[15450]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 09:50:01 ip-172-31-10-139 CROND[15484]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 10:01:01 ip-172-31-10-139 CROND[15558]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15558]: starting 0anacron
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15567]: finished 0anacron
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15558]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15589]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15558]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15596]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15558]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 10:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[15603]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 10:05:01 ip-172-31-10-139 CROND[15636]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 10:10:01 ip-172-31-10-139 CROND[15698]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 10:25:01 ip-172-31-10-139 CROND[15794]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 10:30:01 ip-172-31-10-139 CROND[15834]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 10:45:01 ip-172-31-10-139 CROND[15958]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 10:50:01 ip-172-31-10-139 CROND[15992]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 11:01:01 ip-172-31-10-139 CROND[16074]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16074]: starting 0anacron
+Jul 17 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16083]: finished 0anacron
+Jul 17 11:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16074]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 11:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16105]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 11:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16074]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 11:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16112]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 11:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16074]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 11:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16119]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 11:05:01 ip-172-31-10-139 CROND[16152]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 11:10:01 ip-172-31-10-139 CROND[16214]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 11:25:01 ip-172-31-10-139 CROND[16312]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 11:30:01 ip-172-31-10-139 CROND[16346]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 11:45:01 ip-172-31-10-139 CROND[16470]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 11:50:01 ip-172-31-10-139 CROND[16504]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 12:01:01 ip-172-31-10-139 CROND[16580]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16580]: starting 0anacron
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16589]: finished 0anacron
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16580]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16611]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16580]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16618]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16580]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 12:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[16625]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 12:05:01 ip-172-31-10-139 CROND[16686]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 12:10:01 ip-172-31-10-139 CROND[16720]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 12:25:01 ip-172-31-10-139 CROND[16816]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 12:30:01 ip-172-31-10-139 CROND[16878]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 12:45:01 ip-172-31-10-139 CROND[16978]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 12:50:01 ip-172-31-10-139 CROND[17012]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 13:01:01 ip-172-31-10-139 CROND[17114]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17114]: starting 0anacron
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17123]: finished 0anacron
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17114]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17145]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17114]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17152]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17114]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 13:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17159]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 13:05:01 ip-172-31-10-139 CROND[17192]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 13:10:01 ip-172-31-10-139 CROND[17241]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 13:25:01 ip-172-31-10-139 CROND[17365]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 13:30:01 ip-172-31-10-139 CROND[17402]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 13:45:01 ip-172-31-10-139 CROND[17498]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 13:50:01 ip-172-31-10-139 CROND[17560]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 14:01:01 ip-172-31-10-139 CROND[17643]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17643]: starting 0anacron
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17652]: finished 0anacron
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17643]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17674]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17643]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17681]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17643]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 14:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[17688]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 14:05:01 ip-172-31-10-139 CROND[17721]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 14:10:01 ip-172-31-10-139 CROND[17755]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 14:25:01 ip-172-31-10-139 CROND[17884]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 14:30:01 ip-172-31-10-139 CROND[17918]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 14:45:01 ip-172-31-10-139 CROND[18042]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 14:50:01 ip-172-31-10-139 CROND[18076]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 15:01:01 ip-172-31-10-139 CROND[18150]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18150]: starting 0anacron
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18159]: finished 0anacron
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18150]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18181]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18150]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18188]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18150]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 15:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18195]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 15:05:01 ip-172-31-10-139 CROND[18229]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 15:10:01 ip-172-31-10-139 CROND[18263]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 15:25:01 ip-172-31-10-139 CROND[18390]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 15:30:01 ip-172-31-10-139 CROND[18424]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 15:45:01 ip-172-31-10-139 CROND[18546]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 15:50:01 ip-172-31-10-139 CROND[18580]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 16:01:01 ip-172-31-10-139 CROND[18656]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18656]: starting 0anacron
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18665]: finished 0anacron
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18656]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18687]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18656]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18694]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18656]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 16:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[18701]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 16:05:01 ip-172-31-10-139 CROND[18762]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 16:10:01 ip-172-31-10-139 CROND[18796]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 16:25:01 ip-172-31-10-139 CROND[18892]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 16:30:01 ip-172-31-10-139 CROND[18933]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 16:45:01 ip-172-31-10-139 CROND[19057]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 16:50:01 ip-172-31-10-139 CROND[19091]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 17:01:01 ip-172-31-10-139 CROND[19191]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19191]: starting 0anacron
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19200]: finished 0anacron
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19191]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19222]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19191]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19229]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19191]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 17:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19236]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 17:05:01 ip-172-31-10-139 CROND[19284]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 17:10:01 ip-172-31-10-139 CROND[19318]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 17:25:01 ip-172-31-10-139 CROND[19442]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 17:30:01 ip-172-31-10-139 CROND[19476]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 17:45:01 ip-172-31-10-139 CROND[19572]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 17:50:01 ip-172-31-10-139 CROND[19606]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 18:01:01 ip-172-31-10-139 CROND[19710]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19710]: starting 0anacron
+Jul 17 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19719]: finished 0anacron
+Jul 17 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19710]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 18:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19741]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 18:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19710]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 18:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19748]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 18:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19710]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 18:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[19755]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 18:05:01 ip-172-31-10-139 CROND[19788]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 18:10:01 ip-172-31-10-139 CROND[19822]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 18:25:01 ip-172-31-10-139 CROND[19944]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 18:30:01 ip-172-31-10-139 CROND[19983]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 18:45:01 ip-172-31-10-139 CROND[20107]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 18:50:01 ip-172-31-10-139 CROND[20141]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 19:01:01 ip-172-31-10-139 CROND[20215]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20215]: starting 0anacron
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20224]: finished 0anacron
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20215]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20246]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20215]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20253]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20215]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 19:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20260]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 19:05:01 ip-172-31-10-139 CROND[20294]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 19:10:01 ip-172-31-10-139 CROND[20356]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 19:25:01 ip-172-31-10-139 CROND[20452]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 19:30:01 ip-172-31-10-139 CROND[20486]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 19:45:01 ip-172-31-10-139 CROND[20610]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 19:50:01 ip-172-31-10-139 CROND[20645]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 20:01:01 ip-172-31-10-139 CROND[20749]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20749]: starting 0anacron
+Jul 17 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20758]: finished 0anacron
+Jul 17 20:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20749]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 20:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20780]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 20:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20749]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 20:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20787]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 20:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20749]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 20:01:02 ip-172-31-10-139 run-parts(/etc/cron.hourly)[20794]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 20:05:01 ip-172-31-10-139 CROND[20827]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 20:10:01 ip-172-31-10-139 CROND[20861]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 20:25:01 ip-172-31-10-139 CROND[20957]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 20:30:01 ip-172-31-10-139 CROND[21019]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 20:45:01 ip-172-31-10-139 CROND[21115]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 20:50:01 ip-172-31-10-139 CROND[21149]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 21:01:01 ip-172-31-10-139 CROND[21251]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21251]: starting 0anacron
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21260]: finished 0anacron
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21251]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21281]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21251]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21288]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21251]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 21:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21295]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 21:05:01 ip-172-31-10-139 CROND[21328]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 21:10:01 ip-172-31-10-139 CROND[21362]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 21:25:01 ip-172-31-10-139 CROND[21488]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 21:30:01 ip-172-31-10-139 CROND[21522]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 21:45:01 ip-172-31-10-139 CROND[21618]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 21:50:01 ip-172-31-10-139 CROND[21680]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 22:01:01 ip-172-31-10-139 CROND[21756]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21756]: starting 0anacron
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21765]: finished 0anacron
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21756]: starting cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21787]: finished cron.logrotate.elasticbeanstalk.httpd.conf
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21756]: starting cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21794]: finished cron.logrotate.elasticbeanstalk.python-app.conf
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21756]: starting cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 22:01:01 ip-172-31-10-139 run-parts(/etc/cron.hourly)[21801]: finished cron.logrotate.elasticbeanstalk.supervisord.conf
+Jul 17 22:05:01 ip-172-31-10-139 CROND[21834]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 22:10:01 ip-172-31-10-139 CROND[22433]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 22:25:01 ip-172-31-10-139 CROND[22552]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 22:30:01 ip-172-31-10-139 CROND[22586]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)
+Jul 17 22:45:01 ip-172-31-10-139 CROND[22710]: (root) CMD (clearStaleLogPublishingRecords.py)
+Jul 17 22:50:01 ip-172-31-10-139 CROND[23295]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)

@@ -1,0 +1,832 @@
+Jul 16 01:55:57 ip-172-31-10-139 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Jul 16 01:55:57 ip-172-31-10-139 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1927" x-info="http://www.rsyslog.com"] start
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Initializing cgroup subsys cpu
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Linux version 3.14.42-31.38.amzn1.x86_64 (mockbuild@gobi-build-64012) (gcc version 4.8.2 20140120 (Red Hat 4.8.2-16) (GCC) ) #1 SMP Wed May 13 20:33:05 UTC 2015
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Command line: root=LABEL=/ console=ttyS0 LANG=en_US.UTF-8 KEYTABLE=us
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fc000000-0x00000000ffffffff] reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] NX (Execute Disable) protection: active
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] SMBIOS 2.4 present.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Hypervisor detected: Xen HVM
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Xen version 4.2.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Netfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated NICs.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Blkfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated disks.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] You might have to change the root device
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] from /dev/hd[a-d] to /dev/xvd[a-d]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] in your root= kernel command line option
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] No AGP bridge found
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] e820: last_pfn = 0x40000 max_arch_pfn = 0x400000000
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] found SMP MP-table at [mem 0x000fbba0-0x000fbbaf] mapped at [ffff8800000fbba0]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] init_memory_mapping: [mem 0x3fe00000-0x3fffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] init_memory_mapping: [mem 0x3c000000-0x3fdfffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x3bffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] RAMDISK: [mem 0x3724f000-0x37feffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: RSDP 00000000000ea020 000024 (v02    Xen)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: XSDT 00000000fc00f5a0 000054 (v01    Xen      HVM 00000000 HVML 00000000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: FACP 00000000fc00f260 0000F4 (v04    Xen      HVM 00000000 HVML 00000000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: DSDT 00000000fc0035e0 00BBF6 (v02    Xen      HVM 00000000 INTL 20090123)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: FACS 00000000fc0035a0 000040
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: APIC 00000000fc00f360 0000D8 (v02    Xen      HVM 00000000 HVML 00000000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: HPET 00000000fc00f4b0 000038 (v01    Xen      HVM 00000000 HVML 00000000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: WAET 00000000fc00f4f0 000028 (v01    Xen      HVM 00000000 HVML 00000000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: SSDT 00000000fc00f520 000031 (v02    Xen      HVM 00000000 INTL 20090123)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: SSDT 00000000fc00f560 000031 (v02    Xen      HVM 00000000 INTL 20090123)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] No NUMA configuration found
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003fffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x3fffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   NODE_DATA [mem 0x3ffd9000-0x3fffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Zone ranges:
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   Normal   empty
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Movable zone start for each node
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Early memory node ranges
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009dfff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000]   node   0: [mem 0x00100000-0x3fffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x04] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x05] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x06] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x07] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x08] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x09] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x00] disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-47
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 low level)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] smpboot: Allowing 15 CPUs, 14 hotplug CPUs
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] e820: [mem 0x40000000-0xfbffffff] available for PCI devices
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Booting paravirtualized kernel on Xen HVM
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:15 nr_node_ids:1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88003fc00000 s79104 r8192 d23296 u131072
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257928
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Policy zone: DMA32
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Kernel command line: root=LABEL=/ console=ttyS0 LANG=en_US.UTF-8 KEYTABLE=us
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Checking aperture...
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] No AGP bridge found
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Memory: 1001796K/1048180K available (4715K kernel code, 843K rwdata, 2168K rodata, 1088K init, 1704K bss, 46384K reserved)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=15, Nodes=1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Hierarchical RCU implementation.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] 	Additional per-CPU info printed with stalls.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=15.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=15
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] NR_IRQS:4352 nr_irqs:1208 16
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] xen:events: Using 2-level ABI
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] xen:events: Xen HVM callback vector for event delivery is enabled
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] Console: colour VGA+ 80x25
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] console [ttyS0] enabled
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] allocated 4194304 bytes of page_cgroup
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.000000] tsc: Detected 2500.064 MHz processor
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.008000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5000.12 BogoMIPS (lpj=10000256)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.008012] ACPI: Core revision 20131218
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.013478] ACPI: All ACPI Tables successfully acquired
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.015619] Security Framework initialized
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.016089] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.020217] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.023100] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.024004] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.028161] Initializing cgroup subsys memory
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.029875] Initializing cgroup subsys devices
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.032003] Initializing cgroup subsys freezer
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.033730] Initializing cgroup subsys net_cls
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.036002] Initializing cgroup subsys blkio
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.037930] Initializing cgroup subsys perf_event
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.039812] Initializing cgroup subsys hugetlb
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.040060] CPU: Physical Processor ID: 0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.044097] mce: CPU supports 2 MCE banks
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.045738] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.045738] Last level dTLB entries: 4KB 512, 2MB 0, 4MB 0, 1GB 4
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.045738] tlb_flushall_shift: 6
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.062793] ftrace: allocating 18779 entries in 74 pages
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.080109] Switched APIC routing to physical flat.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.086574] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.130105] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz (fam: 06, model: 3e, stepping: 04)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.133383] installing Xen timer for CPU 0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.135291] cpu 0 spinlock event irq 69
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.137083] Performance Events: unsupported p6 CPU model 62 no PMU driver, software events only.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.140825] x86: Booted up 1 node, 1 CPUs
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.142535] smpboot: Total of 1 processors activated (5000.12 BogoMIPS)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.144476] devtmpfs: initialized
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.148350] NET: Registered protocol family 16
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.150377] cpuidle: using governor ladder
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.152006] cpuidle: using governor menu
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.153611] ACPI: bus type PCI registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.155272] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.156312] PCI: Using configuration type 1 for base access
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.160305] bio: create slab <bio-0> at 0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.162166] ACPI: Added _OSI(Module Device)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.163862] ACPI: Added _OSI(Processor Device)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.164010] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.166019] ACPI: Added _OSI(Processor Aggregator Device)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.171062] ACPI: Interpreter enabled
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.172010] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20131218/hwxface-580)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.175924] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20131218/hwxface-580)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.178261] ACPI: (supports S0 S3 S5)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.179751] ACPI: Using IOAPIC for interrupt routing
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.180068] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.245629] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.248011] acpi PNP0A03:00: _OSC: OS supports [Segments MSI]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.250408] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.252077] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.256719] acpiphp: Slot [0] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.259156] acpiphp: Slot [3] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.260344] acpiphp: Slot [4] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.262192] acpiphp: Slot [5] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.264008] acpiphp: Slot [6] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.265881] acpiphp: Slot [7] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.267800] acpiphp: Slot [8] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.268290] acpiphp: Slot [9] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.270163] acpiphp: Slot [10] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.272045] acpiphp: Slot [11] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.274000] acpiphp: Slot [12] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.275984] acpiphp: Slot [13] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.276273] acpiphp: Slot [14] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.278221] acpiphp: Slot [15] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.280048] acpiphp: Slot [16] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.281950] acpiphp: Slot [17] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.283887] acpiphp: Slot [18] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.284270] acpiphp: Slot [19] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.286219] acpiphp: Slot [20] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.288165] acpiphp: Slot [21] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.290172] acpiphp: Slot [22] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.292271] acpiphp: Slot [23] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.294261] acpiphp: Slot [24] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.296192] acpiphp: Slot [25] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.298210] acpiphp: Slot [26] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.300148] acpiphp: Slot [27] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.302116] acpiphp: Slot [28] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.304022] acpiphp: Slot [29] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.305974] acpiphp: Slot [30] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.307935] acpiphp: Slot [31] registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.308241] PCI host bridge to bus 0000:00
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.309892] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.312006] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.315057] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.316007] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.318892] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.325159] * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.325159] * this clock source is slow. Consider trying other clock sources
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.329004] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.337107] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.339837] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.340869] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.343586] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.359481] ACPI: Enabled 2 GPEs in block 00 to 0F
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.360079] xen:balloon: Initialising balloon driver
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.364125] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.368010] vgaarb: loaded
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.369207] vgaarb: bridge control possible 0000:00:02.0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.371574] PCI: Using ACPI for IRQ routing
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.372473] NetLabel: Initializing
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.373987] NetLabel:  domain hash size = 128
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.375872] NetLabel:  protocols = UNLABELED CIPSOv4
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.376021] NetLabel:  unlabeled traffic allowed by default
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.378483] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.380020] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.382365] hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.386069] Switched to clocksource xen
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.389831] pnp: PnP ACPI init
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.391205] ACPI: bus type PNP registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.393007] system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.395997] system 00:02: [io  0x08a0-0x08a3] has been reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.398473] system 00:02: [io  0x0cc0-0x0ccf] has been reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.400988] system 00:02: [io  0x04d0-0x04d1] has been reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.403843] system 00:0a: [io  0x10c0-0x1141] has been reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.406292] system 00:0a: [io  0xb044-0xb047] has been reserved
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.423745] pnp: PnP ACPI: found 11 devices
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.425529] ACPI: bus type PNP unregistered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.433984] NET: Registered protocol family 2
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.436191] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.439087] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.441712] TCP: Hash tables configured (established 8192 bind 8192)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.444259] TCP: reno registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.445581] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.448095] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.451799] NET: Registered protocol family 1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.453596] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.457012] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.459606] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.462398] Unpacking initramfs...
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.662560] Freeing initrd memory: 13956K (ffff88003724f000 - ffff880037ff0000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.666475] futex hash table entries: 4096 (order: 6, 262144 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.669165] audit: initializing netlink subsys (disabled)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.671383] audit: type=2000 audit(1437011733.783:1): initialized
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.689013] bounce pool size: 64 pages
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.690752] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.695260] zbud: loaded
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.696490] VFS: Disk quotas dquot_6.5.2
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.698286] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.701004] msgmni has been set to 1983
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.702836] alg: No test for stdrng (krng)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.704567] Key type asymmetric registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.706326] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.709332] io scheduler noop registered (default)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.711306] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.714020] xen:grant_table: Grant tables using version 1 layout
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.716375] Grant table initialized
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.718094] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.747156] 00:09: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.758954] xen_netfront: Initialising Xen virtual ethernet driver
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.781417] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.786326] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.788467] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.790813] mousedev: PS/2 mouse device common for all mice
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.793753] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.797811] hidraw: raw HID events driver (C) Jiri Kosina
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.800348] TCP: cubic registered
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.801728] NET: Registered protocol family 17
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.803899] registered taskstats version 1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.820678] blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled;
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.890033]  xvda: xvda1
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.904078] xenbus_probe_frontend: Device with no driver: device/vfb/0
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.908182] Freeing unused kernel memory: 1088K (ffffffff81ad4000 - ffffffff81be4000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.911579] Write protecting the kernel read-only data: 10240k
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.916897] Freeing unused kernel memory: 1416K (ffff88000149e000 - ffff880001600000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.924226] Freeing unused kernel memory: 1928K (ffff88000181e000 - ffff880001a00000)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.940626] device-mapper: uevent: version 1.0.3
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    0.942719] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    1.373099] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    1.664091] tsc: Refined TSC clocksource calibration: 2500.001 MHz
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    1.768800] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [    5.668513] random: nonblocking pool is initialized
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   12.080035] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   12.083417] ACPI: Power Button [PWRF]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   12.085041] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input3
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   12.088760] ACPI: Sleep Button [SLPF]
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   12.135930] piix4_smbus 0000:00:01.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   13.140926] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   15.886132] EXT4-fs (xvda1): re-mounted. Opts: (null)
+Jul 16 01:55:57 ip-172-31-10-139 kernel: [   17.211284] NET: Registered protocol family 10
+Jul 16 01:55:57 ip-172-31-10-139 irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Jul 16 01:55:58 ip-172-31-10-139 udevadm[1982]: --type=failed is deprecated and will be removed from a future udev release.
+Jul 16 01:56:11 ip-172-31-10-139 ntpdate[2083]: step time server 52.0.56.137 offset 0.608782 sec
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2097]: ntpd 4.2.6p5@1.2349-o Mon May  4 21:10:15 UTC 2015 (1)
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: proto: precision = 0.103 usec
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: Listen normally on 1 lo 127.0.0.1 UDP 123
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: Listen normally on 2 eth0 172.31.10.139 UDP 123
+Jul 16 01:56:11 ip-172-31-10-139 ntpd[2098]: Listening on routing socket on fd #19 for interface updates
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:13Z] Started EB User Data
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]: + SLEEP_TIME=10
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]: + SLEEP_TIME_MAX=3600
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]: + true
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]: + curl https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/UserDataScript.sh
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Jul 16 01:56:13 ip-172-31-10-139 [eb-cfn-init]:                                  Dload  Upload   Total   Spent    Left  Speed
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: #015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0#015100  8393  100  8393    0     0   4487      0  0:00:01  0:00:01 --:--:--  4485
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: + RESULT=0
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: + [[ 0 -ne 0 ]]
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.237Z] Started EB Bootstrapping Script.
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.272Z] Received parameters:
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  RPMS = https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  TARBALLS = https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  EB_GEMS = https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: + /bin/bash /tmp/ebbootstrap.sh 'https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm' https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz 'https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem' 'https://cloudformation-waitcondition-us-east-1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A647822978635%3Astack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIIT3CWAIMJYUTISA&Expires=1437098016&Signature=M76eVhsYgW2lj9R5Sh00vUI2EZo%3D' arn:aws:cloudformation:us-east-1:
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: 647822978635:stack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e us-east-1 5853392f6602
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  SIGNAL_URL = https://cloudformation-waitcondition-us-east-1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A647822978635%3Astack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIIT3CWAIMJYUTISA&Expires=1437098016&Signature=M76eVhsYgW2lj9R5Sh00vUI2EZo%3D
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  STACK_ID = arn:aws:cloudformation:us-east-1:647822978635:stack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  REGION = us-east-1
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]:  GUID = 5853392f6602
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.289Z] yum repo has already been locked to 5853392f6602.
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.298Z] yum update has already been done.
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.439Z] Completed creating AWS EB users and groups.
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.443Z] Started executing install_rpms https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm.
+Jul 16 01:56:15 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:15.454Z] Installing RPM: https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm.
+Jul 16 01:56:16 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:16.811Z] aws-cfn-bootstrap-1.4-7_eb.noarch has already been installed. Skip installing.
+Jul 16 01:56:16 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:16.816Z] Installing RPM: https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.022Z] aws-elasticbeanstalk-tools-1.15-1.noarch has already been installed. Skip installing.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.027Z] Command Returned: 
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.031Z] Completed executing install_rpms.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.035Z] Started executing install_tarballs https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.042Z] Installing tarball: https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.049Z] awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz has already been installed. Skip installing.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.054Z] Command Returned: 
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.057Z] Completed executing install_tarballs.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.061Z] Started executing install_eb_gems https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem.
+Jul 16 01:56:17 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:17.276Z] Installing EB Gem: https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.712Z] beanstalk-core-1.6 has already been installed. Skip installing.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.717Z] Installing EB Gem: https://s3.amazonaws.com/elasticbeanstalk-env-resources-us-east-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.873Z] executor-1.1 has already been installed. Skip installing.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.878Z] Command Returned: 
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.881Z] Completed executing install_eb_gems.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.885Z] First init of system.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.889Z] Started executing cfn_init _OnInstanceBoot.
+Jul 16 01:56:21 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:21.893Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+Jul 16 01:56:25 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:25.781Z] Command Returned: 
+Jul 16 01:56:25 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:25.785Z] Completed executing cfn_init.
+Jul 16 01:56:25 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:25.789Z] Check whether controlled by launch workflow...
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.297Z] Worflow running.
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.301Z] Workflow controlled instance. Running container provisioning...
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.305Z] Started executing start_cfn_hup.
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.309Z] Starting cfn-hup.
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.315Z] Command Returned: cfn-hup start/running, process 2273
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.325Z] Completed executing start_cfn_hup.
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.333Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Jul 16 01:56:27 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.345Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.197Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.204Z] Completed executing run_eb_command.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.208Z] Synchronizing network time in background.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.212Z] Successfully bootstrapped instance.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.216Z] Sending success signal to CFN wait condition.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: CloudFormation signaled successfully with SUCCESS.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.584Z] Tailing /var/log/eb-commandprocessor.log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* eb-commandprocessor taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.548Z] DEBUG [2283]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.548Z] INFO  [2283]  : Received command CMD-PreInit: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: {
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   "api_version" : "1.0",
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   "request_id": "0",
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   "command_name": "CMD-PreInit"
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: }
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.548Z] DEBUG [2283]  : Checking if the command processor should execute...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] DEBUG [2283]  : Checking whether the command is applicable to instance (i-d4beec07)..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] INFO  [2283]  : Command is applicable to this instance (i-d4beec07)..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] DEBUG [2283]  : Checking if the received command stage is valid..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] INFO  [2283]  : No stage_num in command. Valid stage..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] INFO  [2283]  : Command processor should execute command.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] DEBUG [2283]  : Storing current stage..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] DEBUG [2283]  : Stage_num does not exist. Not saving null stage. Returning..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: + exit 0
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] INFO  [2283]  : Executing command: CMD-PreInit...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.582Z] DEBUG [2283]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.583Z] DEBUG [2283]  : Refreshing metadata..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.583Z] DEBUG [2283]  : Refreshed environment metadata.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.583Z] DEBUG [2283]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.583Z] DEBUG [2283]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.588Z] INFO  [2283]  : Found enabled addons: ["logpublish"].
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.588Z] INFO  [2283]  : Updating Command definition of addon logpublish.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] DEBUG [2283]  : Loaded definition of Command CMD-PreInit.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] INFO  [2283]  : Executing command CMD-PreInit activities...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] DEBUG [2283]  : Setting environment variables..
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] INFO  [2283]  : Running AddonsBefore for command CMD-PreInit...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] DEBUG [2283]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] INFO  [2283]  : Running stage 0 of command CMD-PreInit...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] DEBUG [2283]  : Loaded 4 actions for stage 0.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.589Z] INFO  [2283]  : Running 1 of 4 actions: InfraWriteConfig...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.592Z] INFO  [2283]  : Running 2 of 4 actions: InfraWriteApp1...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:27.593Z] INFO  [2283]  : Running 3 of 4 actions: InfraWriteApp2...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:29.156Z] INFO  [2283]  : Running 4 of 4 actions: PreInitHook...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.190Z] INFO  [2283]  : Running AddonsAfter for command CMD-PreInit...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.191Z] INFO  [2283]  : Command CMD-PreInit succeeded!
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.191Z] INFO  [2283]  : Command processor returning results: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.598Z] Tailing /var/log/eb-activity.log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* eb-activity taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Installing setuptools, pip...done.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Already using interpreter /usr/bin/python2.7
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   New python executable in /opt/python/run/venv/bin/python2.7
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Also creating executable in /opt/python/run/venv/bin/python
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Installing setuptools, pip...done.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Ignoring indexes: https://pypi.python.org/simple
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Processing /opt/elasticbeanstalk/containerfiles/packages/pip-7.0.3-py2.py3-none-any.whl
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Installing collected packages: pip
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:     Found existing installation: pip 6.0.8
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:       Uninstalling pip-6.0.8:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:         Successfully uninstalled pip-6.0.8
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Successfully installed pip-7.0.3
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Ignoring indexes: https://pypi.python.org/simple
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Collecting setuptools
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Installing collected packages: setuptools
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:     Found existing installation: setuptools 12.0.5
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:       Uninstalling setuptools-12.0.5:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:         Successfully uninstalled setuptools-12.0.5
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Successfully installed setuptools-17.1.1
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:35.403Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/05wsgiuser.sh] : Starting activity...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:35.842Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/05wsgiuser.sh] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   ++ /opt/elasticbeanstalk/bin/get-config container -k app_user
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + APP_USER=wsgi
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + id -u wsgi
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   id: wsgi: no such user
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + adduser --system --user-group wsgi -s /sbin/nologin
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:35.842Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/06startsupervisor.sh] : Starting activity...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.018Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/06startsupervisor.sh] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   ++ pgrep supervisord
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + '[' '!' ']'
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + start supervisord
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   supervisord start/running, process 2382
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.018Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/07updatepermissions.sh] : Starting activity...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.188Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/07updatepermissions.sh] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   ++ /opt/elasticbeanstalk/bin/get-config container -k app_user
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + APP_USER=wsgi
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + chgrp wsgi /opt/python/log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + chmod 775 /opt/python/log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.188Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/99cleanup.sh] : Starting activity...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.190Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook/99cleanup.sh] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   + rm -f /etc/logrotate.d/httpd
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.190Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0/PreInitHook] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/preinit.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.190Z] INFO  [2283]  - [CMD-PreInit/PreInitStage0] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Command CMD-PreInit stage 0 completed.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.191Z] INFO  [2283]  - [CMD-PreInit/AddonsAfter] : Starting activity...
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.191Z] INFO  [2283]  - [CMD-PreInit/AddonsAfter] : Completed activity.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.191Z] INFO  [2283]  - [CMD-PreInit] : Completed activity. Result:
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]:   Command CMD-PreInit succeeded.
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.608Z] Tailing /var/log/eb-tools.log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* eb-tools taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ***eb-tools is not available yet.***
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.614Z] Tailing /var/log/eb-version-deployment.log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* eb-version-deployment taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:28,959 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/versions/manifest_1437011609658> from bucket elasticbeanstalk-us-east-1-647822978635 and prefix resources/environments/e-d7jmiqupxb/_runtime/versions/
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,011 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,119 [INFO] Downloaded version label app-150715_215202 from s3 key <Key: elasticbeanstalk-us-east-1-647822978635,resources/environments/e-d7jmiqupxb/_runtime/_versions/django_ecommerce/app-150715_215202>
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.623Z] Tailing /var/log/cfn-init.log
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: ******************* cfn-init taillog *******************
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,371 [INFO] -----------------------Starting build-----------------------
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,519 [INFO] Running configSets: _OnInstanceBoot
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,520 [INFO] Running configSet _OnInstanceBoot
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,526 [INFO] Running config AWSEBBaseConfig
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,531 [INFO] Command clearbackupfiles succeeded
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,541 [INFO] Running config AWSEBMessageOfTheDay
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,545 [INFO] Command 01clearoriginal succeeded
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,553 [INFO] Command 02createbanner succeeded
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,611 [INFO] Command 03updatebanner succeeded
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,621 [INFO] Running config Infra-InstallBaseHooksPkg
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:24,932 [INFO] Running config Infra-InstallContainerHooksPkg
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,598 [INFO] Running config Infra-WriteLeaderTestScript
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,607 [INFO] Running config AWSEBLockCfnBootstap
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,611 [INFO] Command add_lock succeeded
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,619 [INFO] Running config Infra-WriteTailLogsConf
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,628 [INFO] Running config Infra-WriteSystemTailLogsConf
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,637 [INFO] Running config Infra-WriteBundleLogsConf
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,643 [INFO] Running config Infra-WritePublishLogsConf
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,647 [INFO] Running config Infra-WritePublishLogsCron
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,649 [INFO] ConfigSets completed
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:25,771 [INFO] -----------------------Build complete-----------------------
+Jul 16 01:56:36 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,817 [INFO] -----------------------Starting build-----------------------
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,840 [INFO] Running configSets: Infra-WriteApplication2
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,841 [INFO] Running configSet Infra-WriteApplication2
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,842 [INFO] Running config Infra-WriteApplication2
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,130 [INFO] Command 01downloadVersion succeeded
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,133 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,136 [INFO] ConfigSets completed
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:29,145 [INFO] -----------------------Build complete-----------------------
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.634Z] Tailing /var/log/cfn-hup.log
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: ******************* cfn-hup taillog *******************
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,555 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,555 [DEBUG] SQS client initialized with endpoint https://queue.amazonaws.com
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,555 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-east-1.amazonaws.com
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,555 [DEBUG] Enabled single threading mode.
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,556 [DEBUG] Creating /var/lib/cfn-hup/data
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:27,564 [DEBUG] Registering listener i-d4beec07 for stack arn:aws:cloudformation:us-east-1:647822978635:stack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:28,485 [INFO] Refreshing listener credentials
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:28,485 [DEBUG] Get listener credentials for listener i-d4beec07 in stack arn:aws:cloudformation:us-east-1:647822978635:stack/awseb-e-d7jmiqupxb-stack/7557cf30-2b5d-11e5-b5ca-5001dc3ed86e
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:28,650 [INFO] Scheduling next credential refresh in 7200 seconds
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 2015-07-16 01:56:28,650 [DEBUG] Receiving messages for queue https://queue.amazonaws.com/668920780829/edd6ef4c011f8d04fe6eeb4ea03bf434ff1ac054db1afe6d6009a0bf7ac461b0
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: ******************* End of taillog *******************
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: 
+Jul 16 01:56:37 ip-172-31-10-139 [eb-cfn-init]: [2015-07-16T01:56:36.642Z] Completed EB Bootstrapping Script.
+Jul 16 01:56:45 ip-172-31-10-139 [eb-cfn-init]: 16 Jul 01:56:45 ntpdate[2397]: adjust time server 52.0.56.137 offset -0.000264 sec
+Jul 16 02:23:14 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 02:23:14 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 02:23:16 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1428 seconds.
+Jul 16 02:47:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 02:47:04 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 02:47:06 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1580 seconds.
+Jul 16 03:13:26 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 03:13:26 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 03:13:28 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1544 seconds.
+Jul 16 03:39:12 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 03:39:12 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 03:39:14 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1485 seconds.
+Jul 16 04:03:59 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 04:03:59 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 04:04:01 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1790 seconds.
+Jul 16 04:33:51 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 04:33:51 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 04:33:53 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1680 seconds.
+Jul 16 05:01:53 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 05:01:53 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 05:01:55 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1399 seconds.
+Jul 16 05:25:14 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 05:25:14 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 05:25:16 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1445 seconds.
+Jul 16 05:49:21 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 05:49:21 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 05:49:23 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1570 seconds.
+Jul 16 06:15:33 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 06:15:33 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 06:15:35 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1789 seconds.
+Jul 16 06:45:24 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 06:45:24 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 06:45:26 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1456 seconds.
+Jul 16 07:09:42 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 07:09:42 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 07:09:44 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1695 seconds.
+Jul 16 07:37:59 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 07:37:59 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 07:38:01 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1518 seconds.
+Jul 16 08:03:19 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 08:03:19 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 08:03:21 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1712 seconds.
+Jul 16 08:31:53 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 08:31:53 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 08:31:55 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1577 seconds.
+Jul 16 08:58:12 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 08:58:12 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 08:58:14 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1541 seconds.
+Jul 16 09:23:55 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 09:23:55 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 09:23:57 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1711 seconds.
+Jul 16 09:52:28 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 09:52:28 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 09:52:30 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1356 seconds.
+Jul 16 10:15:06 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 10:15:06 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 10:15:08 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1624 seconds.
+Jul 16 10:42:12 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 10:42:12 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 10:42:14 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1477 seconds.
+Jul 16 11:06:51 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 11:06:51 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 11:06:53 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1741 seconds.
+Jul 16 11:35:54 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 11:35:54 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 11:35:56 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1795 seconds.
+Jul 16 12:05:51 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 12:05:51 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 12:05:53 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1667 seconds.
+Jul 16 12:33:40 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 12:33:40 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 12:33:42 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1549 seconds.
+Jul 16 12:59:31 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 12:59:31 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 12:59:33 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1497 seconds.
+Jul 16 13:24:30 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 13:24:30 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 13:24:32 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1721 seconds.
+Jul 16 13:53:13 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 13:53:13 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 13:53:15 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1424 seconds.
+Jul 16 14:16:59 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 14:16:59 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 14:17:01 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1574 seconds.
+Jul 16 14:43:15 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 14:43:15 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 14:43:17 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1781 seconds.
+Jul 16 15:12:58 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 15:12:58 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 15:13:00 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1602 seconds.
+Jul 16 15:39:42 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 15:39:42 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 15:39:44 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1674 seconds.
+Jul 16 16:07:38 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 16:07:38 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 16:07:40 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1399 seconds.
+Jul 16 16:30:59 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 16:30:59 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 16:31:01 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1766 seconds.
+Jul 16 17:00:27 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 17:00:27 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 17:00:29 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1677 seconds.
+Jul 16 17:28:26 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 17:28:26 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 17:28:28 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1532 seconds.
+Jul 16 17:54:00 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 17:54:00 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 17:54:02 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1372 seconds.
+Jul 16 18:16:54 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 18:16:54 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 18:16:56 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1797 seconds.
+Jul 16 18:46:53 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 18:46:53 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 18:46:55 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1449 seconds.
+Jul 16 19:11:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 19:11:04 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 19:11:06 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1443 seconds.
+Jul 16 19:35:09 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 19:35:09 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 19:35:11 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1752 seconds.
+Jul 16 20:04:23 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 20:04:23 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 20:04:25 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1355 seconds.
+Jul 16 20:27:00 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 20:27:00 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 20:27:02 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1363 seconds.
+Jul 16 20:49:45 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 20:49:45 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 20:49:47 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1458 seconds.
+Jul 16 21:14:05 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 21:14:05 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 21:14:07 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1658 seconds.
+Jul 16 21:41:45 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 21:41:45 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 21:41:47 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1709 seconds.
+Jul 16 22:10:16 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 22:10:16 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 22:10:18 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1649 seconds.
+Jul 16 22:37:47 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 22:37:47 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 22:37:49 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1455 seconds.
+Jul 16 23:02:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 23:02:04 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 23:02:06 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1355 seconds.
+Jul 16 23:24:41 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 23:24:41 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 23:24:43 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1739 seconds.
+Jul 16 23:53:42 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 16 23:53:42 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 16 23:53:44 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1629 seconds.
+Jul 17 00:20:53 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 00:20:53 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 00:20:55 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1671 seconds.
+Jul 17 00:48:46 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 00:48:46 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 00:48:48 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1563 seconds.
+Jul 17 01:14:51 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 01:14:51 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 01:14:53 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1639 seconds.
+Jul 17 01:42:12 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 01:42:12 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 01:42:14 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1534 seconds.
+Jul 17 02:07:48 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 02:07:48 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 02:07:50 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1479 seconds.
+Jul 17 02:32:29 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 02:32:29 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 02:32:31 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1492 seconds.
+Jul 17 02:57:23 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 02:57:23 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 02:57:25 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1778 seconds.
+Jul 17 03:27:03 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 03:27:03 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 03:27:05 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1551 seconds.
+Jul 17 03:52:56 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 03:52:56 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 03:52:58 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1712 seconds.
+Jul 17 04:21:30 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 04:21:30 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 04:21:32 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1528 seconds.
+Jul 17 04:47:00 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 04:47:00 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 04:47:02 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1504 seconds.
+Jul 17 05:12:06 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 05:12:06 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 05:12:08 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1374 seconds.
+Jul 17 05:35:02 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 05:35:02 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 05:35:04 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1695 seconds.
+Jul 17 06:03:19 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 06:03:19 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 06:03:21 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1649 seconds.
+Jul 17 06:30:50 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 06:30:50 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 06:30:52 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1696 seconds.
+Jul 17 06:59:08 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 06:59:08 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 06:59:10 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1709 seconds.
+Jul 17 07:27:39 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 07:27:39 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 07:27:41 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1732 seconds.
+Jul 17 07:56:33 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 07:56:33 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 07:56:35 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1422 seconds.
+Jul 17 08:20:17 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 08:20:17 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 08:20:19 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1770 seconds.
+Jul 17 08:49:49 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 08:49:49 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 08:49:51 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1472 seconds.
+Jul 17 09:14:23 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 09:14:23 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 09:14:25 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1711 seconds.
+Jul 17 09:42:56 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 09:42:56 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 09:42:58 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1570 seconds.
+Jul 17 10:09:08 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 10:09:08 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 10:09:10 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1723 seconds.
+Jul 17 10:37:53 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 10:37:53 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 10:37:55 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1777 seconds.
+Jul 17 11:07:32 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 11:07:32 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 11:07:34 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1799 seconds.
+Jul 17 11:37:33 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 11:37:33 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 11:37:35 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1426 seconds.
+Jul 17 12:01:21 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 12:01:21 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 12:01:23 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1501 seconds.
+Jul 17 12:26:24 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 12:26:24 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 12:26:26 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1748 seconds.
+Jul 17 12:55:34 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 12:55:34 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 12:55:36 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1481 seconds.
+Jul 17 13:20:17 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 13:20:17 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 13:20:19 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1650 seconds.
+Jul 17 13:47:49 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 13:47:49 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 13:47:51 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1693 seconds.
+Jul 17 14:16:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 14:16:12 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 14:16:12 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 14:16:13 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1627 seconds.
+Jul 17 14:43:20 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 14:43:20 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 14:43:22 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1637 seconds.
+Jul 17 15:10:39 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 15:10:39 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 15:10:41 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1622 seconds.
+Jul 17 15:37:43 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 15:37:43 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 15:37:45 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1489 seconds.
+Jul 17 16:02:34 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 16:02:34 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 16:02:36 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1789 seconds.
+Jul 17 16:32:25 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 16:32:25 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 16:32:27 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1462 seconds.
+Jul 17 16:56:49 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 16:56:49 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 16:56:51 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1646 seconds.
+Jul 17 17:24:17 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 17:24:17 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 17:24:19 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1640 seconds.
+Jul 17 17:51:39 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 17:51:39 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 17:51:41 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1418 seconds.
+Jul 17 18:15:19 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 18:15:19 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 18:15:21 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1542 seconds.
+Jul 17 18:41:03 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 18:41:03 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 18:41:05 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1466 seconds.
+Jul 17 19:05:31 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 19:05:31 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 19:05:33 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1489 seconds.
+Jul 17 19:30:22 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 19:30:22 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 19:30:24 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1760 seconds.
+Jul 17 19:59:44 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 19:59:44 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 19:59:46 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1782 seconds.
+Jul 17 20:29:28 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 20:29:28 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 20:29:30 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1614 seconds.
+Jul 17 20:56:24 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 20:56:24 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 20:56:26 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1538 seconds.
+Jul 17 21:22:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 21:22:04 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 21:22:06 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1378 seconds.
+Jul 17 21:45:04 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 21:45:04 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 21:45:06 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1426 seconds.
+Jul 17 22:08:52 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 22:08:52 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 22:08:54 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1454 seconds.
+Jul 17 22:33:08 ip-172-31-10-139 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.0.1 port 67 (xid=0x659c7c57)
+Jul 17 22:33:08 ip-172-31-10-139 dhclient[1881]: DHCPACK from 172.31.0.1 (xid=0x659c7c57)
+Jul 17 22:33:10 ip-172-31-10-139 dhclient[1881]: bound to 172.31.10.139 -- renewal in 1542 seconds.
